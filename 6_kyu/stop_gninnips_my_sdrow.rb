@@ -1,6 +1,6 @@
 def spinWords(string)
   words = string.split
-  sentence = words.map {|word| word.size > 5 ? word.reverse : word }
+  sentence = words.map {|word| word.size >= 5 ? word.reverse : word }
   sentence.join(" ")
 end
 
