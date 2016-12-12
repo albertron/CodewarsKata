@@ -1,6 +1,6 @@
 class String
   def toJadenCase
-    arr = self.split(" ")
+    arr = self.split(" ") 
     (arr.map {|x| x.capitalize}).join(" ")
   end
 end
